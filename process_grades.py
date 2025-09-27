@@ -35,20 +35,20 @@ def process_grades(students):
 
 
 if __name__ == "__main__":
-    print("\nActividad 1: Cobertura de Sentencias ---")
+    print("\nActividad 2: Cobertura de Decisiones ---")
 
-    # S1
-    students_S1 = [{'name': 'Ana', 'grades': [80, 90, 85]}]
-    print("Caso S1:", process_grades(students_S1))
+    # D1
+    students_D1 = [{'name': 'Jorge', 'grades': None}]
+    print("Caso D1:", process_grades(students_D1))
 
-    # S2
-    students_S2 = [{'name': 'Luis', 'grades': [60, 55, 65]}]
-    print("Caso S2:", process_grades(students_S2))
+    # D2
+    students_D2 = [{'name': 'Ana', 'grades': [80, 90, 85]}]
+    print("Caso D2:", process_grades(students_D2))
 
-    # S3
-    students_S3 = [{'name': 'Marta', 'grades': [40, 45, 50]}]
-    print("Caso S3:", process_grades(students_S3))
+    # D3
+    students_D3 = [{'name': 'Luis', 'grades': [60, 55, 65]}]
+    print("Caso D3:", process_grades(students_D3))
 
-    # S4
-    students_S4 = [{'name': 'Jorge', 'grades': None}]
-    print("Caso S4:", process_grades(students_S4))
+    # D4
+    students_D4 = [{'name': 'Marta', 'grades': [40, 45, 50]}]
+    print("Caso D4:", process_grades(students_D4))
